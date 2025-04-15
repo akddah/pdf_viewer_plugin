@@ -23,8 +23,8 @@ apply plugin: 'com.android.library'
 
 
 android {
-    namespace "dev.britto.pdf_viewer_plugin" // ✅ correct spelling
     compileSdkVersion 33 // ✅ upgrade to match your app
+    namespace "dev.britto.pdf_viewer_plugin" // ✅ correct spelling
 
     defaultConfig {
         minSdkVersion 21 // ✅ recommended minimum for Flutter now
