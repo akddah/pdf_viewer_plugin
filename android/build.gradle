@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 
 android {
-    compileSdkVersion 33 // ✅ upgrade to match your app
+    compileSdk 33 // ✅ upgrade to match your app
     namespace "dev.britto.pdf_viewer_plugin" // ✅ correct spelling
 
     defaultConfig {
